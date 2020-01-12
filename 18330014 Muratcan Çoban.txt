@@ -1,0 +1,4 @@
+Merhaba Hocam,
+Ben 188330014 numaralı öğrenciniz Muratcan Çoban, final projesi için öğrenci listesi not takip programı yaptım.
+Kayıt olan kullanıcı Öğrencinin; Numarası,adı,bölümü,dersi ve notunu girerek bir liste yapabiliyor. Ve bu kullanıcı istediği zaman girdiği
+bilgileri düzenleyip silebiliyor.

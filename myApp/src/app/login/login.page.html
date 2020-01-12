@@ -1,0 +1,34 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title style="color: gold;">Giriş</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+		<ion-list inset>
+			<ion-item>
+				<ion-input style="color: goldenrod;" type="text" placeholder="E-Posta" [(ngModel)]="eposta"></ion-input>
+			</ion-item>
+			<ion-item>
+				<ion-input style="color: goldenrod;" type="password" placeholder="Parola" [(ngModel)]="parola"></ion-input>
+			</ion-item>
+		</ion-list>
+
+		<div class="ion-padding-horizontal">
+			<div>{{ girisHata }}</div>
+
+			<ion-button style="color: gold;" expand="full" (click)="login()">Giriş Yap</ion-button>
+			<div class="login-footer">
+				<p>
+					<a style="color: red;" href="#">Şifremi Unuttum!</a>
+				</p>
+			</div>
+
+			<ion-list>
+				<ion-button style="color:gold;" ion-button icon-left block clear (click)="kayitOl()">
+					<ion-icon slot="start" name="person-add"></ion-icon>
+					Kayıt Ol
+				</ion-button>
+			</ion-list>
+		</div>
+</ion-content>
